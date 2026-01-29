@@ -26,8 +26,3 @@ t = Turtle()
 #   t.forward(90)
 # equal(270)
 # turtle.done()
-
-#LOOPS IN PYTHON
-
-for i in range (3):
-    print(i)
