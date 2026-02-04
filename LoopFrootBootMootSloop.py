@@ -39,17 +39,17 @@ t = Turtle()
 
 
 def Squarespiral():
-    for i in range (60):
+ for i in range (60):
         def square ():
-            length == 5 + add
-            t.forward(length)
+            morelength()
+            t.forward(5+morelength)
             t.right(90)
-            t.forward(length)
+            t.forward(5+morelength)
             t.right(90)
-            t.forward(length)
+            t.forward(5+morelength)
             t.right(90)
-            t.forward(length)
+            t.forward(5+morelength)
             t.right(95)
-            add + 5
+            morelength = morelength + 5
         square()
 Squarespiral()
