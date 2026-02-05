@@ -38,18 +38,40 @@ t = Turtle()
 # triangle(100,90)
 
 
+# def Squarespiral():
+#  for i in range (60):
+#      def square (length , y):
+#             t.forward(length)
+#             t.right(y)
+#             t.forward(length)
+#             t.right(y)
+#             t.forward(length)
+#             t.right(y)
+#             t.forward(length)
+#             t.right(y)
+#             t.right(5)
+            
+            
+            
+#      square (i*5 + 5, 90)
+# Squarespiral()
 def Squarespiral():
- for i in range (60):
-        def square ():
-            morelength()
-            t.forward(5+morelength)
-            t.right(90)
-            t.forward(5+morelength)
-            t.right(90)
-            t.forward(5+morelength)
-            t.right(90)
-            t.forward(5+morelength)
-            t.right(95)
-            morelength = morelength + 5
-        square()
+  for i in range (60):
+      def square (length , y):
+             t.forward(length)
+             t.right(y)
+             t.forward(length)
+             t.right(y)
+             t.forward(length)
+             t.right(y)
+             t.forward(length)
+             t.right(y)
+             t.forward(length)
+             t.right(y)
+             t.right(5)
+             
+            
+            
+            
+      square (i*5 + 5, 144)
 Squarespiral()
